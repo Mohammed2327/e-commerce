@@ -8,7 +8,7 @@ import { CartProvider } from './components/CartContext';
 
 const Layout = () => {
     return (
-        <>
+    <>
             <Navbar />
             <Routes>
                 <Route path="/" element={<ProductList />} />
@@ -19,8 +19,8 @@ const Layout = () => {
     );
 };
 
-const App = () => {
-    return (
+const App =() =>{
+    return(
         <CartProvider>
             <Layout />
         </CartProvider>
